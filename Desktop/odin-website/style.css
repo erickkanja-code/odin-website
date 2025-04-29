@@ -163,3 +163,56 @@ li {
     align-self: flex-end;
     font-size: 36px;
 }
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.cta-inner-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px solid #3882F6;
+    background-color: #3882F6;
+    height: 100px;
+    width: 900px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.cta-inner-container p {
+    margin: 0;
+}
+
+.cta {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cta-primary-text {
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.cta-secondary-text {
+    font-size: 15px;
+    color: white;
+}
+
+.cta-signup button{
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 7px 35px 7px 35px;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: Roboto;
+    margin-top: 10px;
+    font-weight: 900;
+}
