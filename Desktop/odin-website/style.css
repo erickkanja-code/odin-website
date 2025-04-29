@@ -38,6 +38,7 @@ li {
 
 
 
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -133,4 +134,32 @@ li {
 .text {
     color: rgb(100,100,100);
     margin-top: 10px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.quote p {
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    text-decoration: italic;
+    color: #1F2937;
+    width: 775px
+}
+
+.quoter {
+    width: 800px;
+    align-self: flex-end;
+    font-size: 36px;
 }
